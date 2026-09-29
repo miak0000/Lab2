@@ -1,3 +1,59 @@
-h1{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #b3c3ff;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+    background-color: #b6b6b6;
+}
+
+.nav-links{
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.bio-hero{
+    flex-basis: 100%;
+}
+
+.card-grid{
+    display:flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card{
+    background-color: #3d4f90;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 2px 4px;
+}
+@media (min-width: 768px){
+    .navbar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card-grid{
+        flex-direction: row;
+    }
+    .card{
+        flex: 1;
+    }
 }

@@ -5,7 +5,10 @@
 }
 
 .header{
-    background-color: #b3c3ff;
+    background-color: #33394e;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 1rem;
 }
 .navbar{
     display: flex;
@@ -45,6 +48,15 @@ ul li a{
     padding: 1.5rem;
     box-shadow: 2px 4px;
 }
+
+footer{
+    background-color: #272f4f;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    margin-top: 1rem;
+}
+
 @media (min-width: 768px){
     .navbar{
         flex-direction: row;

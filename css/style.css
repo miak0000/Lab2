@@ -15,11 +15,8 @@
 
 .nav-links{
     display: flex;
-    align-items: center;
-    flex-direction: row;
     gap: 0.5rem;
     margin-top: 10px;
-    list-style: none;
 }
 
 ul{
@@ -73,11 +70,7 @@ img{
         justify-content: space-between;
         padding: 20px 40px;
     }
-    .nav-links{
-        flex-direction: row;
-        gap: 1.5rem;
-        margin-top: 0;
-    }
+
     .card-grid{
         flex-direction: row;
         justify-content: space-between;

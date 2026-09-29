@@ -4,12 +4,7 @@
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-    
-.header{
-    padding: 1rem;
-    color: #7fa8d6;
-    margin-bottom: 1rem;
-}
+
 .navbar{
     display: flex;
     align-items: center;
@@ -18,10 +13,19 @@
     background-color: #fff2b2;
 }
 
+.logo{
+    color: #ffaf5a;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .nav-links{
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
     margin-top: 10px;
+    list-style: none;
 }
 
 ul{
@@ -34,20 +38,21 @@ ul li a{
 
 .bio-hero{
     flex-basis: 100%;
+    color: white;
     background-color: #a8c6e7;
+    padding: 2rem;
+    text-align: center;
 }
 
 .card-grid{
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 1.5rem;
-}
-
-img{
-    width: 100%;
+    padding: 1rem;
 }
 
 .card{
+    flex-basis: 100%;
     background-color: #ffe08a;
     border-radius: 10px;
     padding: 1.5rem;
@@ -62,13 +67,27 @@ footer{
     margin-top: 1rem;
 }
 
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
 @media (min-width: 768px){
     .navbar{
         flex-direction: row;
         justify-content: space-between;
+        padding: 20px 40px;
+    }
+    .nav-links{
+        flex-direction: row;
+        gap: 1.5rem;
+        margin-top: 0;
     }
     .card-grid{
         flex-direction: row;
+        justify-content: space-between;
     }
     .card{
         flex: 1;

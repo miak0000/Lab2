@@ -5,9 +5,8 @@
 }
 
 .header{
-    background-color: #33394e;
     padding: 1rem;
-    color: white;
+    color: black;
     margin-bottom: 1rem;
 }
 .navbar{
@@ -15,7 +14,7 @@
     align-items: center;
     flex-direction: column;
     padding: 20px 0px;
-    background-color: #b6b6b6;
+    background-color: #ffb37d;
 }
 
 .nav-links{
@@ -43,14 +42,14 @@ ul li a{
 }
 
 .card{
-    background-color: #3d4f90;
+    background-color: #ffacc5;
     border-radius: 10px;
     padding: 1.5rem;
     box-shadow: 2px 4px;
 }
 
 footer{
-    background-color: #272f4f;
+    background-color: #ffb37d;
     text-align: center;
     padding: 1rem;
     color: white;

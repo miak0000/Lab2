@@ -13,12 +13,6 @@
     background-color: #fff2b2;
 }
 
-.logo{
-    color: #ffaf5a;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 .nav-links{
     display: flex;
     flex-direction: column;
@@ -53,7 +47,7 @@ ul li a{
 
 .card{
     flex-basis: 100%;
-    background-color: #ffe08a;
+    background-color: #ffaf5a;
     border-radius: 10px;
     padding: 1.5rem;
     box-shadow: 2px 4px;
